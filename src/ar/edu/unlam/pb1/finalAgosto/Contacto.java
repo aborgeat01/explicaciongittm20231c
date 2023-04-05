@@ -3,6 +3,14 @@ package ar.edu.unlam.pb1.finalAgosto;
 public class Contacto {
 	private String nombre;
 	private String apellido;
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido.toLowerCase();
+	}
+
 	private String celular;
 	private String email;
 	private String direccion;
